@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.fullwidth {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.centerd-width {
+    width: 1440px;
+    margin: auto;
+}
+
+.navigation{
+    display: flex;
+    gap: 800px;
+    margin: 20px 50px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    font-size: 45px;
+    font-family:'Send Flowers', cursive;
+    font-weight: 600;
+    text-decoration: none;
+    color: #272727;
+}
+.navmenu{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    font-size: 20px;
+
+}
+
+.header {
+    background-color: rgba(229, 84, 115, 0.1);
+}
+
+.header-contant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -100px;
+}
+
+.flower-text {
+    color: #272727;
+    font-family: Lato;
+    font-size: 70px;
+    line-height: normal;
+}
+
+.small-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.button {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+}
+
+.header-image {
+    margin-left: 200px;
+    margin-right: -100px;
+    position: relative;
+}
+
+.featured-flower {
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.feature-text {
+    margin-top: 100px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+
+}
+
+.feature-text-small {
+    margin-top: 24px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.flower-chart {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.flower {
+    min-height: 538px;
+    min-width: 464px;
+}
+
+.flower1 {
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.flower2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower3 {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+
+}
+
+.flower-image {
+    position: relative;
+    top: 110px;
+    left: 60px;
+}
+
+.flower-image2 {
+    position: relative;
+    top: 110px;
+    left: 60px;
+}
+
+.flower-image3 {
+    position: relative;
+    top: 67px;
+    left: 67px;
+}
+
+
+.flower-name1 {
+    position: relative;
+    top: 150px;
+    left: 140px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.flower-name2 {
+    position: relative;
+    top: 209px;
+    left: 140px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.flower-name3 {
+    position: relative;
+    top: 107px;
+    left: 140px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.offer-section {
+    margin: 200px auto;
+    display: flex;
+    background: rgba(229, 84, 115, 0.1);
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    gap: 250px;
+}
+
+.offer-text-heading {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 20px auto;
+}
+
+.off {
+    color: #E55473;
+}
+
+.offer-details {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.sign-up-button {
+    margin: 20px 200px;
+}
+
+.instagram {
+    margin-top: -200px;
+}
+
+.image-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.deals {
+    margin-top: 100px;
+    background: url(images/Rectangle\ 9.png);
+    min-height: 449px;
+
+}
+
+.subscribe {
+    margin: auto 330px;
+
+}
+
+.email {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    padding: 25px 200px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 20px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #272727;
+    padding: 50px 0;
+}
+
+.footer-h2 {
+    color: #FFF;
+}
+
+.footer-p {
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.cartecy {
+    color: rgba(255, 255, 255, 0.40);
+    margin: 20px auto;
+    text-align: center;
+}
